@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+   
+   <user-permission android:name="android.permission.INTERNET">
+   <user-permission android:name="android.permission.ACCESS_INTERNET_STATE">
     <application
         android:label="learn_flutter_68_2_2"
         android:name="${applicationName}"
