@@ -1,9 +1,9 @@
-import package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class FirestoreService {
   final CollectionReference persons = FirebaseFirestore.instance.collection('persons');
 
-  Future<void> addPerson(String personName, String personEmail, int personAge) {
+  Future<void> addPerson(String personName, String personEmail, int personAge, int age) {
     return persons.add({
       'personName': personName,
       'personEmail': personEmail,
